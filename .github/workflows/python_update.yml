@@ -1,0 +1,8 @@
+name: Update dependencies
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reusable:
+    uses: la-catalog/github-actions/.github/workflows/python_update.yml@main

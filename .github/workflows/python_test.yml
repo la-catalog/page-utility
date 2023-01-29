@@ -1,0 +1,11 @@
+name: Test code
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  reusable:
+    uses: la-catalog/github-actions/.github/workflows/python_test.yml@main
