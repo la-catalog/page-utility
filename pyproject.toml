@@ -1,15 +1,17 @@
 [project]
-name = "python-package"
+name = "page-utility"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
     {name = "thiagola92", email = "thiagola92@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "logger-utility>=0.1.1",
+]
 
 [project.urls]
-repository = "https://github.com/la-catalog/python-package"
+repository = "https://github.com/la-catalog/page-utility"
 
 [project.optional-dependencies]
 [tool.pdm]

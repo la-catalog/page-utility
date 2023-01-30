@@ -1,5 +1,5 @@
-# python-package
+# page-utility
 Use esse pacote para...  
 
 # install
-`pdm add python-package`  
+`pdm add page-utility`  
